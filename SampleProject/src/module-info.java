@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author rathiga
- *
- */
-module SampleProject {
-}
