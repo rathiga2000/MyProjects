@@ -68,13 +68,11 @@ public class AllMethods {
 			int n = s.charAt(i);
 			sum = sum + n;
 		
-//	System.out.println("sum of value");
-//	System.out.println(sum);
-			System.out.println((char)n + " Ascii value " + n);
+			System.out.println((char)n+ " Ascii value " + n);
 		}
 			System.out.println("sum of value");
 			System.out.println(sum);
 
-		}
+	}
 	
 }
