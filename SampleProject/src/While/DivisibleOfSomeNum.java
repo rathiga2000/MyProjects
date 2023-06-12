@@ -1,4 +1,5 @@
 package While;
+//300-250 divisible of 9
 public class DivisibleOfSomeNum
 {
   public static void main(String args[])
@@ -9,7 +10,7 @@ public class DivisibleOfSomeNum
   public void Sum_Value(int count)
   {
  
-  while(count>=200)
+  while(count>=250)
   {
   if(count%9==0)
   {

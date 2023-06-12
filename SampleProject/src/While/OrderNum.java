@@ -12,8 +12,8 @@ public class OrderNum {
 	}
 
 	public void Line(int Num) {
-		int count = 0;
-		while (count < 10) {
+		int count = 1;
+		while (count<=10) {
 			System.out.println(Num);
 			Num++;
 			count++;

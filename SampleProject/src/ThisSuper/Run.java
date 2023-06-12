@@ -9,10 +9,9 @@ public class Run {
 		rathiga.setMaths(98);
 //System.out.println("tenth total mark is " +rathiga.tenthTotal());
 System.out.println("twelth total mark is " +rathiga.twelthTotal());
-
+//
 System.out.println("tenth percentage is " +rathiga.tenthPercentage());
 System.out.println("twelth percentage is " +rathiga.twelthPercentage());
-
 
 				
 	}

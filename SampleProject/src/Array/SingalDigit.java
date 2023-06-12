@@ -10,19 +10,36 @@ public class SingalDigit {
 	}
 
  int[] singal(int arr[]) {
-		int sum=0;
-			for(int i=0;i>0||sum>9;i++)
+	 System.out.println();
+	 System.out.println("sum of digit");
+			for(int i=0;i<arr.length;i++)
 		{  
-		if (arr[i] == 0)   
-		{  
-		arr[i] = sum;  
-		sum = 0;  
-		}  
-		sum = sum + arr[i] % 10;  
-		arr[i] = arr[i] / 10;  
+				int sum=0;
+     for(int j=0;j<arr[i];) {
+		sum = sum + (arr[i] % 10);  
+		arr[i] = arr[i] / 10;
+		if(sum<10&& arr[i]==j)
+		{
+			arr[i]=sum;
+			break;
 		}
+		if(sum>9 && arr[i]==j)
+		{
+			arr[i]=sum;
+			sum=0;
+			
+		}
+		
+		}
+		}
+		
 
+ for(int i=0;i<arr.length;i++)
+	{  
+		
+ System.out.print(arr[i]+" ");
+}
+	return arr;  
 
-		return arr;  
-		}  
+ }
 }

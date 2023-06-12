@@ -2,7 +2,7 @@ package Array;
 
 
 public class Element extends Input {
-	public static void main(String arg[])
+public static void main(String arg[])
 	{
 		
 	Element obj=new Element();

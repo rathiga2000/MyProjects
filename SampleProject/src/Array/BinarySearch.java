@@ -5,8 +5,8 @@ public class BinarySearch {
 	public static void main(String[] args) {
 int input[]=Input.value();
 BinarySearch obj=new BinarySearch();
-obj.ascen(input);
-obj.binary(input);
+ int call[]= obj.ascen(input);
+obj.binary(call);
 	}
 	int[] ascen(int a[])//59074831
 	{
@@ -33,31 +33,29 @@ obj.binary(input);
 	void binary(int a[])//01345789//index:01234567
 	{
 	int	l=0; int h=a.length;
+	System.out.println();
 		Scanner sc=new Scanner(System.in);
+		System.out.println("find the value");
 		int find=sc.nextInt();
-		int m=l+h/2;//8/2=4
-		
-	while(find>m)//7>5//
+int middle=l+h/2;		
+	
+while(l<h)
+{
+	if(a[middle]==find)
 	{
-	l=m+1;//6
-	m=l+h/2;//6+8/2=7
+		System.out.println("Index " + middle + " element " + a[middle]);
+		break;
 	}
-	while(find>m)//7>9
+	if(a[middle]<find)
 	{
-		h=m-1;	//8-1=7
-		m=l+h/2;//66
-		
-		}
-	//l=6 //h=7
-	while(find>m)//7>8
-	{
-		h=m-1;//6
-		m=l+h/2;//6
+		l=middle+1;
+		middle=(middle+h)/2;
 	}
-	while(find==m)
-	{
-		System.out.println(m);
-	}
-	}
+	if(a[middle]>find)
+{ 
+	h=middle-1;
+	middle=(middle+l)/2;
 }
-
+}
+}
+}
