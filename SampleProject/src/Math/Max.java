@@ -29,12 +29,10 @@ public class Max {
         System.out.println("cube root of:" +Math.cbrt(a));
        System.out.println("return the round of value: " +Math.rint(a));
     System.out.println("Sign number is" +Math.signum(a));
-//       4
     
-      //System.out.println(Math.incrementExact(2));        
-       
-    //   System.out.println(Math.incrementExact(a));      
- 
+    System.out.println("increment of" +Math.incrementExact(a));
+    System.out.println("decrement of" +Math.decrementExact(a));
+
 
 	   }
        
