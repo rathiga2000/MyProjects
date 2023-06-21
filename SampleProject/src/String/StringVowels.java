@@ -28,6 +28,7 @@ public class StringVowels {
 		System.out.println("count of string value: " + count);
 
 	}
+	
 
 	public void num() {
 		String s = "Ravi Age of 34";

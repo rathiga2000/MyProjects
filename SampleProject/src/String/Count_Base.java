@@ -14,13 +14,15 @@ public class Count_Base {
 	public int count(String search, char find) {
 		int count = 0;
 		char ch[] = new char[search.length()];
-		//for (int i = 0; i < search.length(); i++)
-			for(int i:ch)
+		for (int i = 0; i < search.length(); i++)
 		{
              if (search.charAt(i) == find)
+             
 				count++;
 		}
+		
 		System.out.println("count of char value " + count);
 		return count;
-	}
+	
+}
 }

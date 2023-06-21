@@ -9,10 +9,9 @@ obj.first();
 	public void first()
 	{
 	
-	String str="my name is rathiga";
+	String str="My name is Rathiga";
 		char ch[] = str.toCharArray();
 	    boolean flag = true;
-
 	    for(int i = 0; i < ch.length; i++) {
 	     if(Character.isLetter(ch[i])) {
 	        if(flag) {
@@ -32,6 +31,9 @@ obj.first();
 	  }
 	
 	
-}
+	    	
+	    	}
+	    
+
 
 	

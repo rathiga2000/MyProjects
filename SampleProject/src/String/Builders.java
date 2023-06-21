@@ -1,9 +1,9 @@
 package String;
-public class Buffer {
-    public static void main(String[] args) {
+public class Builders {
+     public static void main(String[] args) {
 		String s = "Welcome";
 
-		StringBuffer sb = new StringBuffer(s);
+		StringBuilder sb = new StringBuilder(s);
 		System.out.println("Print the Orginal String: " +sb);
 		sb.append("Home");
 		System.out.println("Add String: " + sb);
@@ -23,4 +23,6 @@ public class Buffer {
 		System.out.println("Print Last Output is :" +output);
 
 	}
-}
+	}
+
+
