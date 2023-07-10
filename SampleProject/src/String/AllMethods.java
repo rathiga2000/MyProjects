@@ -4,16 +4,16 @@ public class AllMethods {
 
 	public static void main(String[] args) {
 		AllMethods obj = new AllMethods();
-		obj.value();
-		obj.ascii();
+//		obj.value();
+//		obj.ascii();
 		obj.cut();
-		obj.concat();
-		obj.split();
-		obj.num();
-		obj.trip();
-		obj.myrep();
-		obj.same();
-		obj.point();
+//		obj.concat();
+//		obj.split();
+//		obj.num();
+//		obj.trip();
+//		obj.myrep();
+//		obj.same();
+//		obj.point();
 		
 	}
 
@@ -63,7 +63,7 @@ public class AllMethods {
 		System.out.println("Ater Trim value");
 		String afterTrim = s.trim();
 		
-		System.out.println(afterTrim.length());
+		//System.out.println(afterTrim.length());
 		System.out.println(afterTrim);
 	}
 

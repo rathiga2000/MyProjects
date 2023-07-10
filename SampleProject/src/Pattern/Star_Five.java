@@ -3,24 +3,26 @@ package Pattern;
 public class Star_Five {
 	public static void main(String arg[]) {
 		Star_Five obj = new Star_Five();
-		obj.Value_Star(1);
-		obj.Star_Exclamation(1);
+		obj.Value_Star();
+        obj.Star_Exclamation();
 		obj.Five_Five_Star();
 		obj.Number();
 		obj.Triangle();
 		obj.RightTri_Top();
 		obj.RightTri_Bottom();
 	}
+	//i=row
+	//j=col
 	/* 
 	 * output: *****
 	 */ 
-	 public void Value_Star(int i) {
+	 public void Value_Star() {
 
 		System.out.println("print first row 5 * Value");
 
-		while (i <= 5) {
-			System.out.print(" * ");
-			i++;
+		for(int i=1;i<=5;i++)
+		{
+			System.out.print("*");
 		}
 		System.out.println();
 
@@ -28,20 +30,21 @@ public class Star_Five {
 	 /*
 	  * output:*!*!*
 	  */
-	public void Star_Exclamation(int i) {
+	public void Star_Exclamation() {
 
 
 		System.out.println("Print first row * and ! value");
-
-		while (i <= 5) {
-			if (i % 2 == 0) {
-				System.out.print(" ! ");
-			} else {
-				System.out.print(" * ");
-
-			}
-			i++;
-		}
+for(int i=1;i<=5;i++)
+{
+	if(i%2!=0)
+	{
+		System.out.print("*");
+	}
+	else 
+	{
+		System.out.print("!");
+	}
+}
 		System.out.println();		
 		}
 	/*

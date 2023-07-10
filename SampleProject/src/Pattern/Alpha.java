@@ -1,27 +1,27 @@
 package Pattern;
 
 public class Alpha {
-	public static void main(String arg[])
-	{
-		Alpha obj=new Alpha();
-	    obj.Value();
+	public static void main(String arg[]) {
+		Alpha obj = new Alpha();
+		obj.Value();
 	}
-	public void Value()
-	{
-		char letter='a';
-		int row=1;
-		while(row<=4)
-		{
-			int col=1;
-			while(col<=4)
-				{
-				System.out.print(letter+" ");
-				col++;
-				}
-			letter++;
-			row++;
-System.out.println();
-}
-	}
+//a a a a
+//b b b b
+//c c c c
+//d d d d
+	public void Value() {
+		char s = 'a';
 
+		for (int row = 1; row <= 4; row++) {
+
+			for (int col = 1; col <= 4; col++) {
+				System.out.print(s + " ");
+
+			}
+			System.out.println();
+
+			s++;
+		}
+
+	}
 }
